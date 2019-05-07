@@ -1,0 +1,12 @@
+/**********
+	Below is the approach:
+***********/
+
+1. Identify the classes as per the functionality.
+2. write the failure unit tests.
+3. Identify the functions in the class which are simple in understanding.
+3. Write the code in the functions.
+4. Write the successful unit tests to check individual methods with code coverage into consideration so that there wont be dead code.
+5. Please run the composer install after downloading the code.
+6. Run the composer and verify with command : ./vendor/bin/phpunit tests/ 
+7. Run the tests.
