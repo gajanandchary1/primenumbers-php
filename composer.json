@@ -1,6 +1,14 @@
 {
 	"require-dev" : {
-		"php": "7.1.0",
+		"php" : "7.1.0",
 		"phpunit/phpunit" : "7.0.0"
+	},
+	"autoload" : {
+		"classmap" : [
+			"src/"
+		]
+	},
+	"require" : {
+		"doctrine/collections" : "^1.6"
 	}
 }
